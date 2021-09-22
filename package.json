@@ -1,7 +1,7 @@
 {
   "name": "dev_standard",
   "version": "1.0.0",
-  "description": "html,js,css,vue开发规范",
+  "description": "html,js,css,vue前端开发规范",
   "main": "index.js",
   "dependencies": {
     "vitepress": "^0.18.1",
