@@ -22,7 +22,7 @@ const foo = Foo()
    * 如果文件夹下有根组件，父组件使用index.vue命名，子组件建立component放置子组件，副作用函数放置在effect文件中
    * 不能用简写来命名，编辑器的自动补全已经带来方便，使用简写会造成晦涩难懂的后果
 * 属性命名
-在JS中使用camelCase，而在html元素中使用kebab-case
+   * 在JS中使用camelCase，而在html元素中使用kebab-case
 ```
 bad
 props： {
