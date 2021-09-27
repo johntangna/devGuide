@@ -10,12 +10,12 @@ bad
 
 good
 <img 
-  src=""
-  alt=""
+  src=''
+  alt=''
 />
 <MyComponent
-  a="a"
-  b="b"
-  c="c"
+  a='a'
+  b='b'
+  c='c'
 >
 ```
