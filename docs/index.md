@@ -1,24 +1,4 @@
 
-<script setup>
-import {onMounted} from 'vue'
-onMounted(() => {
-let currentEle = document.getElementsByClassName("sidebar-link-item")
-function resetStyle(){
-  for(let i = 0; i < currentEle.length; i++){
-    currentEle[i].className = "sidebar-link-item"
-  }
-}
-for(let i = 0; i < currentEle.length; i++){
-  currentEle[i].addEventListener("click", (e) => {
-    if(e.target.nodeName == 'A'){
-      resetStyle()
-      e.target.className = "sidebar-link-item active"
-    }
-  }, false)
-}
-})
-</script>
-
 # 概述
 
 欢迎使用前端开发规范，使用过程遇到问题，请到[github](https://github.com/johntangna/devGuide.git)上提问
