@@ -1,6 +1,6 @@
 module.exports = {
-    title: "欧美斯前端开发规范",
-
+    title: "欧美斯在线文档",
+    description: "囊括集团内软件系统操作手册",
     editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
@@ -14,24 +14,40 @@ module.exports = {
     // },
     themeConfig: {
         sidebar: {
-            // 侧边栏
-            "/": getSidebar(),
+            // 开发规范手册
+            "/devStandard/index": getDevSidebar(),
+            //系统操作手册
+            "systemStandard/index": getSystemSidebar()
         },
-        nav: [
-            // 顶部右侧导航栏
-            { text: "介绍", link: "/", activeMatch: "^/$|^/devStandard/" },
-            {
-                text: "官方风格指南",
-                link: "https://cn.vuejs.org/v2/style-guide/",
-            },
-        ],
+        // nav: [
+        //     // 顶部右侧导航栏
+        //     { text: "介绍", link: "/", activeMatch: "^/$|^/devStandard/" },
+        //     {
+        //         text: "官方风格指南",
+        //         link: "https://cn.vuejs.org/v2/style-guide/",
+        //     },
+        // ],
     }
 }
 
-function getSidebar() {
+function getSystemSidebar() {
     return [{
-            text: "介绍",
-            link: "/"
+            text: "操作手册介绍",
+            link: "systemStandard/index"
+        },
+        {
+            text: "欧小斯内购操作手册",
+            children: [
+                { text: "登录", link: "systemStandard/omsb2cStandard/index" }
+            ]
+        }
+    ]
+}
+
+function getDevSidebar() {
+    return [{
+            text: "开发规范介绍",
+            link: "/devStandard/index"
         },
         {
             text: "HTML规范",
@@ -72,6 +88,6 @@ function getSidebar() {
             children: [
                 { text: "代码规范", link: "/devStandard/vueStandard/code" }
             ]
-        },
+        }
     ]
 }

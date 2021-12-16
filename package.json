@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
+    "dingtalk-jsapi": "^2.13.68",
     "vitepress": "^0.18.1",
     "yarn": "^1.22.11"
   },

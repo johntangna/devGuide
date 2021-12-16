@@ -1,36 +1,24 @@
+---
+home: true
+heroImage: /logo.png
+actionText: 前端规范手册
+actionLink: /devStandard/index
 
-# 概述
-
-欢迎使用前端开发规范，使用过程遇到问题，请到[github](https://github.com/johntangna/devGuide.git)上提问
-
-# 关于
-
-该文档基于[W3C](https://www.w3.org/)、[苹果开发者](https://developer.apple.com/)编写而成，该文档结合日常需求开发以及日常开发过程中总结提炼出来的经验而制定
-
-旨在增强团队协作，提高代码质量以及打造开发基石的编码规范
-
-该文档是团队基本约定的内容，必须严格遵循
-
-# HTML 规范
-
-基于[W3C](https://www.w3.org/)、[苹果开发者](https://developer.apple.com/)等官方文档，并结合团队业务和开发过程中总结的规范约定，让页面 HTML 代码更具语义性。
-
-# 图片规范
-
-了解各种图片格式特性，根据特性制定图片规范，包括但不限于图片的质量约定、图片引入方式、图片合并处理等，旨在从图片层面优化页面性能。
-
-# CSS 规范
-
-统一规范团队 CSS 代码书写风格和使用 CSS 预编译语言语法风格，提供常用媒体查询语句和浏览器私有属性引用，并从业务层面统一规范常用模块的引用。
-
-# 命名规范
-
-从 目录、图片、HTML/CSS 文件、ClassName 的命名等层面约定规范团队的命名习惯，增强团队代码的可读性。
-
-# JavaScript 规范
-
-统一团队的 JS 语法风格和书写习惯，减少程序出错的概率，其中也包含了 ES6 的语法规范和最佳实践。
-
-# Vue 规范
-
-统一团队的类 Vue 应用的语法规范，规范类 Vue 应用书写。
+altActionText: 系统操作手册
+altActionLink: /systemStandard/index
+features:
+- title: 功能丰富
+  details: 包括对开发规范、分销系统、欧小斯内购系统、欧小斯优选系统操作手册的输出
+- title: 易于扩展
+  details: 后续可以支持新系统手册的加入
+- title: 面向未来
+  details: 后期开发人员方便维护、升级，对使用人群也带来了极大的便利性
+footer: Copyright © 2021-present wangsitu
+---
+<script setup>
+import * as dd from 'dingtalk-jsapi'
+// if(dd.env.platform == 'notInDingTalk'){
+//   location.href="/error.html"
+//   alert("请登录钉钉后打开")
+// }
+</script>
