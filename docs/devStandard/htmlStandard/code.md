@@ -1,9 +1,13 @@
 ---
-sidebarDepth: 5
+sidebarDepth: 3
 ---
+<script setup>
+  import Location from '../../components/Location.vue'
+  const homeUrl = `${location.origin}/devStandard/index`
+</script>
+<Location :homeUrl="homeUrl"/>
 
 # 代码规范
-
 ## DOCTYPE 声明
 
 一个 DOCTYPE 必须包含以下部分，并严格按照顺序出现：

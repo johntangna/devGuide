@@ -17,7 +17,7 @@ module.exports = {
             // 开发规范手册
             "/devStandard/index": getDevSidebar(),
             //系统操作手册
-            "systemStandard/index": getSystemSidebar()
+            "/systemStandard/index": getSystemSidebar()
         },
         // nav: [
         //     // 顶部右侧导航栏
@@ -32,13 +32,31 @@ module.exports = {
 
 function getSystemSidebar() {
     return [{
-            text: "操作手册介绍",
-            link: "systemStandard/index"
+            text: "返回首页",
+            link: "/"
+        },
+        {
+            text: "分销系统操作手册",
+            children: [
+                { text: "登录", link: "/systemStandard/fenxiaoStandard/index" }
+            ]
         },
         {
             text: "欧小斯内购操作手册",
             children: [
-                { text: "登录", link: "systemStandard/omsb2cStandard/index" }
+                { text: "登录", link: "/systemStandard/insideStandard/index" }
+            ]
+        },
+        {
+            text: "埃森哲内购操作手册",
+            children: [
+                { text: "登录", link: "/systemStandard/omsb2cStandard/index" }
+            ]
+        },
+        {
+            text: "欧小斯优选操作手册",
+            children: [
+                { text: "登录", link: "/systemStandard/omsyxStandard/index" }
             ]
         }
     ]
@@ -46,8 +64,8 @@ function getSystemSidebar() {
 
 function getDevSidebar() {
     return [{
-            text: "开发规范介绍",
-            link: "/devStandard/index"
+            text: "返回首页",
+            link: "/"
         },
         {
             text: "HTML规范",

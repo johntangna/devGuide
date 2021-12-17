@@ -1,4 +1,6 @@
-
+---
+sidebarDepth: 2
+---
 # 概述
 
 欢迎使用前端开发规范，使用过程遇到问题，请到[github](https://github.com/johntangna/devGuide.git)上提问

@@ -1,4 +1,5 @@
 ---
+sideBarDepth: 1
 home: true
 heroImage: /logo.png
 actionText: 前端规范手册
@@ -8,7 +9,7 @@ altActionText: 系统操作手册
 altActionLink: /systemStandard/index
 features:
 - title: 功能丰富
-  details: 包括对开发规范、分销系统、欧小斯内购系统、欧小斯优选系统操作手册的输出
+  details: 包括对开发规范、分销系统、欧小斯内购系统、欧小斯优选系统、埃森哲内购系统操作手册的输出
 - title: 易于扩展
   details: 后续可以支持新系统手册的加入
 - title: 面向未来
