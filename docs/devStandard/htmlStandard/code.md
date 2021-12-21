@@ -3,7 +3,7 @@ sidebarDepth: 3
 ---
 <script setup>
   import Location from '../../components/Location.vue'
-  const homeUrl = `${location.origin}/devStandard/index`
+  const homeUrl = `${window.location.origin}/devStandard/index`
 </script>
 <Location :homeUrl="homeUrl"/>
 

@@ -14,7 +14,7 @@ features:
   details: 后续可以支持新系统手册的加入
 - title: 面向未来
   details: 后期开发人员方便维护、升级，对使用人群也带来了极大的便利性
-footer: Copyright © 2021-present wangsitu
+footer: Copyright © 2021 欧美斯集团 | OMS-DOCS
 ---
 <script setup>
 import * as dd from 'dingtalk-jsapi'

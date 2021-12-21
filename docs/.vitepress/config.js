@@ -32,39 +32,31 @@ module.exports = {
 
 function getSystemSidebar() {
     return [{
-            text: "返回首页",
+            text: "返回上一页",
             link: "/"
         },
         {
             text: "分销系统操作手册",
-            children: [
-                { text: "登录", link: "/systemStandard/fenxiaoStandard/index" }
-            ]
+            link: "/systemStandard/fenxiaoStandard/index"
         },
         {
             text: "欧小斯内购操作手册",
-            children: [
-                { text: "登录", link: "/systemStandard/insideStandard/index" }
-            ]
+            link: "/systemStandard/insideStandard/index"
         },
         {
             text: "埃森哲内购操作手册",
-            children: [
-                { text: "登录", link: "/systemStandard/omsb2cStandard/index" }
-            ]
+            link: "/systemStandard/omsb2cStandard/index"
         },
         {
             text: "欧小斯优选操作手册",
-            children: [
-                { text: "登录", link: "/systemStandard/omsyxStandard/index" }
-            ]
+            link: "/systemStandard/omsyxStandard/index"
         }
     ]
 }
 
 function getDevSidebar() {
     return [{
-            text: "返回首页",
+            text: "返回上一页",
             link: "/"
         },
         {
