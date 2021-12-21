@@ -18,8 +18,8 @@ footer: Copyright © 2021 欧美斯集团 | OMS-DOCS
 ---
 <script setup>
 import * as dd from 'dingtalk-jsapi'
-// if(dd.env.platform == 'notInDingTalk'){
-//   location.href="/error.html"
-//   alert("请登录钉钉后打开")
-// }
+if(dd.env.platform == 'notInDingTalk'){
+  location.href="/error.html"
+  alert("请登录钉钉后打开")
+}
 </script>
