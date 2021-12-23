@@ -18,7 +18,7 @@
 
 > 如下图所示，请在输入框内输入管理员账号，点击进行登录
 
-<PictureComp :imgUrl="'../../omsb2c/login.PNG'"/> 
+<PictureComp :imgUrl="'/omsb2c/login.PNG'"/> 
 
 
 ## 首页功能
@@ -133,7 +133,7 @@
 5. 三个通知按钮，全部勾上即可
 :::
 
-<PictureComp :imgUrl="'../../omsb2c/services.png'"/> 
+<PictureComp :imgUrl="'/omsb2c/services.png'"/> 
 
 ### 客服首页
 
